@@ -1,0 +1,449 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 27 Sep 2024 15:02:21 at https://doj.gov.in/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qw%e0C2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://doj.gov.in/ -O1 "C:\Users\chait\OneDrive\Desktop\doj11" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:02:22	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://doj.gov.in/robots.txt (from primary/primary)
+15:02:59	Error: 	"Not Found" (404) at link https://doj.gov.in/xmlrpc.php (from https://doj.gov.in/)
+15:03:39	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/ (from https://doj.gov.in/)
+15:03:40	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/11468 (from https://doj.gov.in/)
+15:03:40	Error: 	"Not Found" (404) at link https://doj.gov.in/xmlrpc.php?rsd (from https://doj.gov.in/)
+15:03:41	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2F (from https://doj.gov.in/)
+15:03:42	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2F&format=xml (from https://doj.gov.in/)
+15:03:43	Error: 	"Bad Request" (400) at link https://doj.gov.in/wp-admin/admin-ajax.php (from https://doj.gov.in/)
+15:06:50	Error: 	Exit requested by shell or user
+15:06:54	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/document/हिंदी-दिवस-हिंदी-पखवाड़ा-2024/ (from https://doj.gov.in/)
+15:06:58	Error: 	"Not Found" (404) at link https://doj.gov.in/wp-content/themes/sdo-theme/css/fonts/flexslider-icon.ttf (from https://doj.gov.in/wp-content/themes/sdo-theme/css/addons/sliderhelper.css?ver=6.6.1)
+15:06:58	Error: 	"Not Found" (404) at link https://doj.gov.in/wp-content/themes/sdo-theme/css/fonts/flexslider-icon.svg (from https://doj.gov.in/wp-content/themes/sdo-theme/css/addons/sliderhelper.css?ver=6.6.1)
+15:06:58	Error: 	"Not Found" (404) at link https://doj.gov.in/wp-content/themes/sdo-theme/css/addons/blank.gif (from https://doj.gov.in/wp-content/themes/sdo-theme/css/addons/sliderhelper.css?ver=6.6.1)
+15:06:59	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/711 (from https://doj.gov.in/sitemap/)
+15:06:59	Warning: 	Moved Permanently for https://doj.gov.in/?p=711
+15:06:59	Warning: 	File has moved from https://doj.gov.in/?p=711 to https://doj.gov.in/sitemap/
+15:06:59	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fsitemap%2F (from https://doj.gov.in/sitemap/)
+15:06:59	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fsitemap%2F&format=xml (from https://doj.gov.in/sitemap/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/साइटमैप/ (from https://doj.gov.in/sitemap/)
+15:06:59	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/724 (from https://doj.gov.in/help/)
+15:06:59	Warning: 	Moved Permanently for https://doj.gov.in/?p=724
+15:06:59	Warning: 	File has moved from https://doj.gov.in/?p=724 to https://doj.gov.in/help/
+15:06:59	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fhelp%2F (from https://doj.gov.in/help/)
+15:06:59	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fhelp%2F&format=xml (from https://doj.gov.in/help/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/सहायता/ (from https://doj.gov.in/help/)
+15:06:59	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/11822 (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fhi%2F (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fhi%2F&format=xml (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/इतिहास/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/विभाग-के-बारे-में/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/about-department/प्रस्तावना/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/about-department/कार्य/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/संगठन-चार्ट/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/about-department/प्रशासनिक-सेटअप/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/कौन-क्या-है/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/मासिक-उपलब्धियां/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/नियम-और-अधिनियम/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/सिटीजन-चार्टर/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/वेबसाइट-सूचना-प्रबंधक/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/नियुक्ति-एवं-स्थानांतरण/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/उच्चतम-न्यायालय-के-न्याय/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/उच्च-न्यायालय-के-न्यायाध/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/उच्च-न्यायालय-के-न्यायाध-2/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/रिक्तियों-की-स्थिति-2/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/वेतन-भत्ता-और-पेंशन/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/पहला-राष्ट्रीय-न्यायिक-व/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/दूसरा-राष्ट्रीय-न्यायिक/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/अन्य-देशों-के-साथ-हस्ताक्/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/दिल्ली-जिला-न्यायालयों-क/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/हिन्दी-और-क्षेत्रीय-भाषा/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/लोक-शिकायत-का-निवारण/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/फास्ट-ट्रैक-स्पेशल-कोर्ट/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/कुटुंब-न्यायालय/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/राष्ट्रीय-न्यायिक-अकादमी/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/विजन-दस्तावेज/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/सलाहकार-परिषद/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/न्यायिक-सुधार-पर-कार्य-अन/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/परियोजना-iii/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/कम्प्यूटरीकरण-और-वैन-कने/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/सीआईएस-और-कोविड-प्रबंधन-प/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/राष्ट्रीय-न्यायिक-डाटा-ग/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/वर्चुअल-अदालतें/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/वीडियो-कॉन्फ्रेंसिंग/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/लाइव-स्ट्रीमिंग/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/ई-फाइलिंग/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/ई-पेमेंट/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/ई-सेवा-केंद्र/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/ई-कोर्ट-सेवाएँ/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/जजमेंट-सर्च-पोर्टल/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/नेशनल-सर्विस-एंड-ट्रैकिं/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/जस्टिस-क्लॉक/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/सेवा-के-रूप-में-सुरक्षित-स/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/अभिलेखों-का-डिजिटीकरण/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/सूचना-शिक्षा-और-संचार-आईई/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/पुरस्कार-और-मान्यता/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/प्रशिक्षण-और-जागरूकता-का/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/डिजाइनिंग-इनोवेटिव-सोल्य/ (from https://doj.gov.in/hi/)
+15:06:59	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/बारे-में-4/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/न्याय-बंधु-गतिविधियां/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/वेबिनार/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/विभिन्न-भाषाओं-में-जानका/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/वीडियो/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/बारे-में-3/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/हमारा-संविधान-हमारा-सम्म/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/सबको-न्याय-हर-घर-न्याय-अवल/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/नव-भारत-नव-संकल्प-अवलोकन/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/विधि-जागृति-अभियान-अवलोक/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/मिडिया/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/फोटो-गैलरी-2/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/वीडियो-2/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/category/प्रेस-विज्ञप्ति/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/फोटो-गैलरी/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/वीडियो-गैलरी/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/पिछली-घटनाएं/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/राष्ट्रीय-विधिक-सेवा-प्र/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/संसदीय-प्रश्न/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/notice-category/नियुक्ति/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/notice-category/निविदाएं/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/आरटीआई/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/पीएफ़एमएस-आदेश/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/योजना-समेकित-दिशानिर्द/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/document/हिंदी-दिवस-हिंदी-पखवाड़ा-2024-2/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/document/जुलाई-2024-की-मासिक-उपलब्धि-2/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/document/जून-2024-की-मासिक-उपलब्धि/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/document/मई-2024-के-लिए-मासिक-उपलब्धि/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/document/अप्रैल-2024-के-लिए-मासिक-उपलब्/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/document/मार्च-2024-के-लिए-मासिक-उपलब्ध/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/document/फरवरी-2024-के-लिए-मासिक-उपलब्ध/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/document/जनवरी-2024-की-मासिक-उपलब्धि/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/document/दिसंबर-2023-की-मासिक-उपलब्धि/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Not Found" (404) at link https://doj.gov.in/नया-क्या-है/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/राष्ट्रीय-न्यायिक-डाटा-ग-2/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/न्यायालय-मामलों-की-लाइव-स/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Not Found" (404) at link https://doj.gov.in/pay-your-traffic-fine-here/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/division/न्याय-ii-2/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/division/नियुक्ति/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/division/न्याय-प्रदायगी-और-विधिक-स/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/division/न्याय-तक-पहुँच/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/division/ई-कोर्ट्स/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/division/न्याय-i/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/division/न्याय-ii/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/division/प्रशासन/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/वेबसाइट-नीतियां/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/नियम-और-शर्तें/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/प्रतिक्रिया/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/हमसे-संपर्क-करें/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/अक्सर-पूछे-जाने-वाले-प्रश/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/वेब-सूचना-प्रबंधक/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/आगंतुक-सारांश/ (from https://doj.gov.in/hi/)
+15:07:00	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/19856 (from https://doj.gov.in/history/)
+15:07:00	Warning: 	Moved Permanently for https://doj.gov.in/?p=19856
+15:07:00	Warning: 	File has moved from https://doj.gov.in/?p=19856 to https://doj.gov.in/history/
+15:07:00	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fhistory%2F (from https://doj.gov.in/history/)
+15:07:00	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fhistory%2F&format=xml (from https://doj.gov.in/history/)
+15:07:00	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/19658 (from https://doj.gov.in/about-department/)
+15:07:00	Warning: 	Moved Permanently for https://doj.gov.in/?p=19658
+15:07:00	Warning: 	File has moved from https://doj.gov.in/?p=19658 to https://doj.gov.in/about-department/
+15:07:00	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout-department%2F (from https://doj.gov.in/about-department/)
+15:07:00	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout-department%2F&format=xml (from https://doj.gov.in/about-department/)
+15:07:00	Warning: 	Moved Permanently for https://doj.gov.in/?p=345
+15:07:00	Warning: 	File has moved from https://doj.gov.in/?p=345 to https://doj.gov.in/about-department/vision-and-mission/
+15:07:00	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout-department%2Fvision-and-mission%2F (from https://doj.gov.in/about-department/vision-and-mission/)
+15:07:00	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout-department%2Fvision-and-mission%2F&format=xml (from https://doj.gov.in/about-department/vision-and-mission/)
+15:07:00	Warning: 	Moved Permanently for https://doj.gov.in/?p=350
+15:07:00	Warning: 	File has moved from https://doj.gov.in/?p=350 to https://doj.gov.in/about-department/function-of-department/
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout-department%2Ffunction-of-department%2F (from https://doj.gov.in/about-department/function-of-department/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout-department%2Ffunction-of-department%2F&format=xml (from https://doj.gov.in/about-department/function-of-department/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/4000 (from https://doj.gov.in/organization-chart/)
+15:07:01	Warning: 	Moved Permanently for https://doj.gov.in/?p=4000
+15:07:01	Warning: 	File has moved from https://doj.gov.in/?p=4000 to https://doj.gov.in/organization-chart/
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Forganization-chart%2F (from https://doj.gov.in/organization-chart/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Forganization-chart%2F&format=xml (from https://doj.gov.in/organization-chart/)
+15:07:01	Warning: 	Moved Permanently for https://doj.gov.in/?p=352
+15:07:01	Warning: 	File has moved from https://doj.gov.in/?p=352 to https://doj.gov.in/about-department/administrative-setup/
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout-department%2Fadministrative-setup%2F (from https://doj.gov.in/about-department/administrative-setup/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout-department%2Fadministrative-setup%2F&format=xml (from https://doj.gov.in/about-department/administrative-setup/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/194 (from https://doj.gov.in/whos-who/)
+15:07:01	Warning: 	Moved Permanently for https://doj.gov.in/?p=194
+15:07:01	Warning: 	File has moved from https://doj.gov.in/?p=194 to https://doj.gov.in/whos-who/
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fwhos-who%2F (from https://doj.gov.in/whos-who/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fwhos-who%2F&format=xml (from https://doj.gov.in/whos-who/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/6525 (from https://doj.gov.in/monthly-achievements-month-wise/)
+15:07:01	Warning: 	Moved Permanently for https://doj.gov.in/?p=6525
+15:07:01	Warning: 	File has moved from https://doj.gov.in/?p=6525 to https://doj.gov.in/monthly-achievements-month-wise/
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fmonthly-achievements-month-wise%2F (from https://doj.gov.in/monthly-achievements-month-wise/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fmonthly-achievements-month-wise%2F&format=xml (from https://doj.gov.in/monthly-achievements-month-wise/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/11402 (from https://doj.gov.in/citizens-charter/)
+15:07:01	Warning: 	Moved Permanently for https://doj.gov.in/?p=11402
+15:07:01	Warning: 	File has moved from https://doj.gov.in/?p=11402 to https://doj.gov.in/citizens-charter/
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fcitizens-charter%2F (from https://doj.gov.in/citizens-charter/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fcitizens-charter%2F&format=xml (from https://doj.gov.in/citizens-charter/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7095 (from https://doj.gov.in/acts-and-rules/)
+15:07:01	Warning: 	Moved Permanently for https://doj.gov.in/?p=7095
+15:07:01	Warning: 	File has moved from https://doj.gov.in/?p=7095 to https://doj.gov.in/acts-and-rules/
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Facts-and-rules%2F (from https://doj.gov.in/acts-and-rules/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Facts-and-rules%2F&format=xml (from https://doj.gov.in/acts-and-rules/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7897 (from https://doj.gov.in/website-information-manager/)
+15:07:01	Warning: 	Moved Permanently for https://doj.gov.in/?p=7897
+15:07:01	Warning: 	File has moved from https://doj.gov.in/?p=7897 to https://doj.gov.in/website-information-manager/
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fwebsite-information-manager%2F (from https://doj.gov.in/website-information-manager/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fwebsite-information-manager%2F&format=xml (from https://doj.gov.in/website-information-manager/)
+15:07:01	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/12719 (from https://doj.gov.in/latest-orders-of-appointment-transfer-etc/)
+15:07:01	Warning: 	Moved Permanently for https://doj.gov.in/?p=12719
+15:07:01	Warning: 	File has moved from https://doj.gov.in/?p=12719 to https://doj.gov.in/latest-orders-of-appointment-transfer-etc/
+15:07:02	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Flatest-orders-of-appointment-transfer-etc%2F (from https://doj.gov.in/latest-orders-of-appointment-transfer-etc/)
+15:07:02	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Flatest-orders-of-appointment-transfer-etc%2F&format=xml (from https://doj.gov.in/latest-orders-of-appointment-transfer-etc/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/6539 (from https://doj.gov.in/memorandum-of-procedure-of-appointment-of-supreme-court-judges/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=6539
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=6539 to https://doj.gov.in/memorandum-of-procedure-of-appointment-of-supreme-court-judges/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fmemorandum-of-procedure-of-appointment-of-supreme-court-judges%2F (from https://doj.gov.in/memorandum-of-procedure-of-appointment-of-supreme-court-judges/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fmemorandum-of-procedure-of-appointment-of-supreme-court-judges%2F&format=xml (from https://doj.gov.in/memorandum-of-procedure-of-appointment-of-supreme-court-judges/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/6547 (from https://doj.gov.in/memorandum-of-procedure-of-appointment-of-high-court-judges/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=6547
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=6547 to https://doj.gov.in/memorandum-of-procedure-of-appointment-of-high-court-judges/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fmemorandum-of-procedure-of-appointment-of-high-court-judges%2F (from https://doj.gov.in/memorandum-of-procedure-of-appointment-of-high-court-judges/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fmemorandum-of-procedure-of-appointment-of-high-court-judges%2F&format=xml (from https://doj.gov.in/memorandum-of-procedure-of-appointment-of-high-court-judges/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/12055 (from https://doj.gov.in/list-of-high-court-judges/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=12055
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=12055 to https://doj.gov.in/list-of-high-court-judges/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Flist-of-high-court-judges%2F (from https://doj.gov.in/list-of-high-court-judges/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Flist-of-high-court-judges%2F&format=xml (from https://doj.gov.in/list-of-high-court-judges/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/15530 (from https://doj.gov.in/vacancy-position/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=15530
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=15530 to https://doj.gov.in/vacancy-position/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvacancy-position%2F (from https://doj.gov.in/vacancy-position/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvacancy-position%2F&format=xml (from https://doj.gov.in/vacancy-position/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7466 (from https://doj.gov.in/pay-allowance/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=7466
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=7466 to https://doj.gov.in/pay-allowance/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fpay-allowance%2F (from https://doj.gov.in/pay-allowance/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fpay-allowance%2F&format=xml (from https://doj.gov.in/pay-allowance/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7470 (from https://doj.gov.in/first-national-judicial-pay-commission/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=7470
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=7470 to https://doj.gov.in/first-national-judicial-pay-commission/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ffirst-national-judicial-pay-commission%2F (from https://doj.gov.in/first-national-judicial-pay-commission/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ffirst-national-judicial-pay-commission%2F&format=xml (from https://doj.gov.in/first-national-judicial-pay-commission/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7473 (from https://doj.gov.in/second-national-judicial-pay-commission/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=7473
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=7473 to https://doj.gov.in/second-national-judicial-pay-commission/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fsecond-national-judicial-pay-commission%2F (from https://doj.gov.in/second-national-judicial-pay-commission/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fsecond-national-judicial-pay-commission%2F&format=xml (from https://doj.gov.in/second-national-judicial-pay-commission/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7479 (from https://doj.gov.in/mou-signed-with-other-countries/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=7479
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=7479 to https://doj.gov.in/mou-signed-with-other-countries/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fmou-signed-with-other-countries%2F (from https://doj.gov.in/mou-signed-with-other-countries/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fmou-signed-with-other-countries%2F&format=xml (from https://doj.gov.in/mou-signed-with-other-countries/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7475 (from https://doj.gov.in/pecuniary-jurisdiction-of-delhi-district-courts/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=7475
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=7475 to https://doj.gov.in/pecuniary-jurisdiction-of-delhi-district-courts/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fpecuniary-jurisdiction-of-delhi-district-courts%2F (from https://doj.gov.in/pecuniary-jurisdiction-of-delhi-district-courts/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fpecuniary-jurisdiction-of-delhi-district-courts%2F&format=xml (from https://doj.gov.in/pecuniary-jurisdiction-of-delhi-district-courts/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7477 (from https://doj.gov.in/use-of-hindi-and-regional-languages/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=7477
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=7477 to https://doj.gov.in/use-of-hindi-and-regional-languages/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fuse-of-hindi-and-regional-languages%2F (from https://doj.gov.in/use-of-hindi-and-regional-languages/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fuse-of-hindi-and-regional-languages%2F&format=xml (from https://doj.gov.in/use-of-hindi-and-regional-languages/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7481 (from https://doj.gov.in/redressal-of-public-grievances/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=7481
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=7481 to https://doj.gov.in/redressal-of-public-grievances/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fredressal-of-public-grievances%2F (from https://doj.gov.in/redressal-of-public-grievances/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fredressal-of-public-grievances%2F&format=xml (from https://doj.gov.in/redressal-of-public-grievances/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7894 (from https://doj.gov.in/guidelines-of-grievances/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=7894
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=7894 to https://doj.gov.in/guidelines-of-grievances/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fguidelines-of-grievances%2F (from https://doj.gov.in/guidelines-of-grievances/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fguidelines-of-grievances%2F&format=xml (from https://doj.gov.in/guidelines-of-grievances/)
+15:07:03	Error: 	"Error when decompressing" (-1) at link https://doj.gov.in/hi/शिकायतों-के-दिशानिर्देश/ (from https://doj.gov.in/guidelines-of-grievances/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/8553 (from https://doj.gov.in/fast-track-special-court-ftscs/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=8553
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=8553 to https://doj.gov.in/fast-track-special-court-ftscs/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ffast-track-special-court-ftscs%2F (from https://doj.gov.in/fast-track-special-court-ftscs/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ffast-track-special-court-ftscs%2F&format=xml (from https://doj.gov.in/fast-track-special-court-ftscs/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/6669 (from https://doj.gov.in/special-courts-for-mp-mla/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=6669
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=6669 to https://doj.gov.in/special-courts-for-mp-mla/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fspecial-courts-for-mp-mla%2F (from https://doj.gov.in/special-courts-for-mp-mla/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fspecial-courts-for-mp-mla%2F&format=xml (from https://doj.gov.in/special-courts-for-mp-mla/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/15446 (from https://doj.gov.in/sanctions-2/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=15446
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=15446 to https://doj.gov.in/sanctions-2/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fsanctions-2%2F (from https://doj.gov.in/sanctions-2/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fsanctions-2%2F&format=xml (from https://doj.gov.in/sanctions-2/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/6678 (from https://doj.gov.in/fast-track-courts/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=6678
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=6678 to https://doj.gov.in/fast-track-courts/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ffast-track-courts%2F (from https://doj.gov.in/fast-track-courts/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ffast-track-courts%2F&format=xml (from https://doj.gov.in/fast-track-courts/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/6674 (from https://doj.gov.in/family-court/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=6674
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=6674 to https://doj.gov.in/family-court/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ffamily-court%2F (from https://doj.gov.in/family-court/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ffamily-court%2F&format=xml (from https://doj.gov.in/family-court/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/7821 (from https://doj.gov.in/national-judicial-academy-5/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=7821
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=7821 to https://doj.gov.in/national-judicial-academy-5/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fnational-judicial-academy-5%2F (from https://doj.gov.in/national-judicial-academy-5/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fnational-judicial-academy-5%2F&format=xml (from https://doj.gov.in/national-judicial-academy-5/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/6579 (from https://doj.gov.in/vision-document/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=6579
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=6579 to https://doj.gov.in/vision-document/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvision-document%2F (from https://doj.gov.in/vision-document/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvision-document%2F&format=xml (from https://doj.gov.in/vision-document/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/6583 (from https://doj.gov.in/advisory-council/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=6583
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=6583 to https://doj.gov.in/advisory-council/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fadvisory-council%2F (from https://doj.gov.in/advisory-council/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fadvisory-council%2F&format=xml (from https://doj.gov.in/advisory-council/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/11440 (from https://doj.gov.in/scheme-for-action-research-and-studies-on-judicial-reforms-5/)
+15:07:03	Warning: 	Moved Permanently for https://doj.gov.in/?p=11440
+15:07:03	Warning: 	File has moved from https://doj.gov.in/?p=11440 to https://doj.gov.in/scheme-for-action-research-and-studies-on-judicial-reforms-5/
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fscheme-for-action-research-and-studies-on-judicial-reforms-5%2F (from https://doj.gov.in/scheme-for-action-research-and-studies-on-judicial-reforms-5/)
+15:07:03	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fscheme-for-action-research-and-studies-on-judicial-reforms-5%2F&format=xml (from https://doj.gov.in/scheme-for-action-research-and-studies-on-judicial-reforms-5/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/8244 (from https://doj.gov.in/phase-iii/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=8244
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=8244 to https://doj.gov.in/phase-iii/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fphase-iii%2F (from https://doj.gov.in/phase-iii/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fphase-iii%2F&format=xml (from https://doj.gov.in/phase-iii/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10331 (from https://doj.gov.in/ecourts-mmp-ecourts-achievements-computerization-and-wan-connectivity/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10331
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10331 to https://doj.gov.in/ecourts-mmp-ecourts-achievements-computerization-and-wan-connectivity/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fecourts-mmp-ecourts-achievements-computerization-and-wan-connectivity%2F (from https://doj.gov.in/ecourts-mmp-ecourts-achievements-computerization-and-wan-connectivity/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fecourts-mmp-ecourts-achievements-computerization-and-wan-connectivity%2F&format=xml (from https://doj.gov.in/ecourts-mmp-ecourts-achievements-computerization-and-wan-connectivity/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10309 (from https://doj.gov.in/cis-and-covid-management-software-patch/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10309
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10309 to https://doj.gov.in/cis-and-covid-management-software-patch/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fcis-and-covid-management-software-patch%2F (from https://doj.gov.in/cis-and-covid-management-software-patch/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fcis-and-covid-management-software-patch%2F&format=xml (from https://doj.gov.in/cis-and-covid-management-software-patch/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10359 (from https://doj.gov.in/the-national-judicial-data-grid-njdg/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10359
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10359 to https://doj.gov.in/the-national-judicial-data-grid-njdg/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fthe-national-judicial-data-grid-njdg%2F (from https://doj.gov.in/the-national-judicial-data-grid-njdg/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fthe-national-judicial-data-grid-njdg%2F&format=xml (from https://doj.gov.in/the-national-judicial-data-grid-njdg/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10339 (from https://doj.gov.in/virtual-courts/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10339
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10339 to https://doj.gov.in/virtual-courts/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvirtual-courts%2F (from https://doj.gov.in/virtual-courts/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvirtual-courts%2F&format=xml (from https://doj.gov.in/virtual-courts/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10355 (from https://doj.gov.in/video-conferencing/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10355
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10355 to https://doj.gov.in/video-conferencing/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvideo-conferencing%2F (from https://doj.gov.in/video-conferencing/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvideo-conferencing%2F&format=xml (from https://doj.gov.in/video-conferencing/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10353 (from https://doj.gov.in/live-streaming/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10353
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10353 to https://doj.gov.in/live-streaming/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Flive-streaming%2F (from https://doj.gov.in/live-streaming/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Flive-streaming%2F&format=xml (from https://doj.gov.in/live-streaming/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10350 (from https://doj.gov.in/efiling/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10350
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10350 to https://doj.gov.in/efiling/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fefiling%2F (from https://doj.gov.in/efiling/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fefiling%2F&format=xml (from https://doj.gov.in/efiling/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10347 (from https://doj.gov.in/e-payments/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10347
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10347 to https://doj.gov.in/e-payments/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fe-payments%2F (from https://doj.gov.in/e-payments/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fe-payments%2F&format=xml (from https://doj.gov.in/e-payments/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10344 (from https://doj.gov.in/esewa-kendra/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10344
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10344 to https://doj.gov.in/esewa-kendra/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fesewa-kendra%2F (from https://doj.gov.in/esewa-kendra/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fesewa-kendra%2F&format=xml (from https://doj.gov.in/esewa-kendra/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10341 (from https://doj.gov.in/ecourt-services/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10341
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10341 to https://doj.gov.in/ecourt-services/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fecourt-services%2F (from https://doj.gov.in/ecourt-services/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fecourt-services%2F&format=xml (from https://doj.gov.in/ecourt-services/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10362 (from https://doj.gov.in/judgment-search-portal/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10362
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10362 to https://doj.gov.in/judgment-search-portal/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fjudgment-search-portal%2F (from https://doj.gov.in/judgment-search-portal/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fjudgment-search-portal%2F&format=xml (from https://doj.gov.in/judgment-search-portal/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10370 (from https://doj.gov.in/national-service-and-tracking-of-electronic-processes-nstep/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10370
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10370 to https://doj.gov.in/national-service-and-tracking-of-electronic-processes-nstep/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fnational-service-and-tracking-of-electronic-processes-nstep%2F (from https://doj.gov.in/national-service-and-tracking-of-electronic-processes-nstep/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fnational-service-and-tracking-of-electronic-processes-nstep%2F&format=xml (from https://doj.gov.in/national-service-and-tracking-of-electronic-processes-nstep/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10379 (from https://doj.gov.in/justice-clock/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10379
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10379 to https://doj.gov.in/justice-clock/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fjustice-clock%2F (from https://doj.gov.in/justice-clock/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fjustice-clock%2F&format=xml (from https://doj.gov.in/justice-clock/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10375 (from https://doj.gov.in/secure-scalable-sugamya-website-as-a-service-s3waas/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10375
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10375 to https://doj.gov.in/secure-scalable-sugamya-website-as-a-service-s3waas/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fsecure-scalable-sugamya-website-as-a-service-s3waas%2F (from https://doj.gov.in/secure-scalable-sugamya-website-as-a-service-s3waas/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fsecure-scalable-sugamya-website-as-a-service-s3waas%2F&format=xml (from https://doj.gov.in/secure-scalable-sugamya-website-as-a-service-s3waas/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10385 (from https://doj.gov.in/digitization-of-records/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10385
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10385 to https://doj.gov.in/digitization-of-records/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fdigitization-of-records%2F (from https://doj.gov.in/digitization-of-records/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fdigitization-of-records%2F&format=xml (from https://doj.gov.in/digitization-of-records/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10372 (from https://doj.gov.in/information-education-communication-iec/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10372
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10372 to https://doj.gov.in/information-education-communication-iec/
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Finformation-education-communication-iec%2F (from https://doj.gov.in/information-education-communication-iec/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Finformation-education-communication-iec%2F&format=xml (from https://doj.gov.in/information-education-communication-iec/)
+15:07:05	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/10335 (from https://doj.gov.in/awards-and-recognition/)
+15:07:05	Warning: 	Moved Permanently for https://doj.gov.in/?p=10335
+15:07:05	Warning: 	File has moved from https://doj.gov.in/?p=10335 to https://doj.gov.in/awards-and-recognition/
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fawards-and-recognition%2F (from https://doj.gov.in/awards-and-recognition/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fawards-and-recognition%2F&format=xml (from https://doj.gov.in/awards-and-recognition/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/8309 (from https://doj.gov.in/training-and-awareness-programs/)
+15:07:06	Warning: 	Moved Permanently for https://doj.gov.in/?p=8309
+15:07:06	Warning: 	File has moved from https://doj.gov.in/?p=8309 to https://doj.gov.in/training-and-awareness-programs/
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ftraining-and-awareness-programs%2F (from https://doj.gov.in/training-and-awareness-programs/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Ftraining-and-awareness-programs%2F&format=xml (from https://doj.gov.in/training-and-awareness-programs/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/11999 (from https://doj.gov.in/designing-innovative-solutions-for-holistic-access-to-justice-disha/)
+15:07:06	Warning: 	Moved Permanently for https://doj.gov.in/?p=11999
+15:07:06	Warning: 	File has moved from https://doj.gov.in/?p=11999 to https://doj.gov.in/designing-innovative-solutions-for-holistic-access-to-justice-disha/
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fdesigning-innovative-solutions-for-holistic-access-to-justice-disha%2F (from https://doj.gov.in/designing-innovative-solutions-for-holistic-access-to-justice-disha/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fdesigning-innovative-solutions-for-holistic-access-to-justice-disha%2F&format=xml (from https://doj.gov.in/designing-innovative-solutions-for-holistic-access-to-justice-disha/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/24966 (from https://doj.gov.in/about/)
+15:07:06	Warning: 	Moved Permanently for https://doj.gov.in/?p=24966
+15:07:06	Warning: 	File has moved from https://doj.gov.in/?p=24966 to https://doj.gov.in/about/
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout%2F (from https://doj.gov.in/about/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fabout%2F&format=xml (from https://doj.gov.in/about/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/16337 (from https://doj.gov.in/nyaya-bandhu-activities/)
+15:07:06	Warning: 	Moved Permanently for https://doj.gov.in/?p=16337
+15:07:06	Warning: 	File has moved from https://doj.gov.in/?p=16337 to https://doj.gov.in/nyaya-bandhu-activities/
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fnyaya-bandhu-activities%2F (from https://doj.gov.in/nyaya-bandhu-activities/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fnyaya-bandhu-activities%2F&format=xml (from https://doj.gov.in/nyaya-bandhu-activities/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/6655 (from https://doj.gov.in/legal-literacy-legal-awareness/)
+15:07:06	Warning: 	Moved Permanently for https://doj.gov.in/?p=6655
+15:07:06	Warning: 	File has moved from https://doj.gov.in/?p=6655 to https://doj.gov.in/legal-literacy-legal-awareness/
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Flegal-literacy-legal-awareness%2F (from https://doj.gov.in/legal-literacy-legal-awareness/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Flegal-literacy-legal-awareness%2F&format=xml (from https://doj.gov.in/legal-literacy-legal-awareness/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/17050 (from https://doj.gov.in/webinar/)
+15:07:06	Warning: 	Moved Permanently for https://doj.gov.in/?p=17050
+15:07:06	Warning: 	File has moved from https://doj.gov.in/?p=17050 to https://doj.gov.in/webinar/
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fwebinar%2F (from https://doj.gov.in/webinar/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fwebinar%2F&format=xml (from https://doj.gov.in/webinar/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/20638 (from https://doj.gov.in/digital-library/)
+15:07:06	Warning: 	Moved Permanently for https://doj.gov.in/?p=20638
+15:07:06	Warning: 	File has moved from https://doj.gov.in/?p=20638 to https://doj.gov.in/digital-library/
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fdigital-library%2F (from https://doj.gov.in/digital-library/)
+15:07:06	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fdigital-library%2F&format=xml (from https://doj.gov.in/digital-library/)
+15:07:07	Warning: 	File not added due to mirror cancel: https://doj.gov.in/kokborok-language/
+15:07:07	Error: 	"mirror stopped by user" (-1) at link https://doj.gov.in/kokborok-language/ (from https://doj.gov.in/digital-library/)
+15:07:07	Warning: 	File not added due to mirror cancel: https://doj.gov.in/lepcha-language/
+15:07:07	Error: 	"mirror stopped by user" (-1) at link https://doj.gov.in/lepcha-language/ (from https://doj.gov.in/digital-library/)
+15:07:07	Warning: 	File not added due to mirror cancel: https://doj.gov.in/limboo-language/
+15:07:07	Error: 	"mirror stopped by user" (-1) at link https://doj.gov.in/limboo-language/ (from https://doj.gov.in/digital-library/)
+15:07:07	Warning: 	File not added due to mirror cancel: https://doj.gov.in/manipuri-language/
+15:07:07	Error: 	"mirror stopped by user" (-1) at link https://doj.gov.in/manipuri-language/ (from https://doj.gov.in/digital-library/)
+15:07:07	Warning: 	File not added due to mirror cancel: https://doj.gov.in/nepali-language/
+15:07:07	Error: 	"mirror stopped by user" (-1) at link https://doj.gov.in/nepali-language/ (from https://doj.gov.in/digital-library/)
+15:07:07	Warning: 	File not added due to mirror cancel: https://doj.gov.in/paite-dialect-language/
+15:07:07	Error: 	"mirror stopped by user" (-1) at link https://doj.gov.in/paite-dialect-language/ (from https://doj.gov.in/digital-library/)
+15:07:07	Warning: 	File not added due to mirror cancel: https://doj.gov.in/rabia-language/
+15:07:07	Error: 	"mirror stopped by user" (-1) at link https://doj.gov.in/rabia-language/ (from https://doj.gov.in/digital-library/)
+15:07:07	Warning: 	File not added due to mirror cancel: https://doj.gov.in/thadou-dialect-language/
+15:07:07	Error: 	"mirror stopped by user" (-1) at link https://doj.gov.in/thadou-dialect-language/ (from https://doj.gov.in/digital-library/)
+15:07:07	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/wp/v2/pages/17062 (from https://doj.gov.in/videos/)
+15:07:07	Warning: 	File not added due to mirror cancel: https://doj.gov.in/?p=17062
+15:07:07	Error: 	"mirror stopped by user" (-1) at link https://doj.gov.in/?p=17062 (from https://doj.gov.in/videos/)
+15:07:07	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvideos%2F (from https://doj.gov.in/videos/)
+15:07:07	Error: 	"Unauthorized" (401) at link https://doj.gov.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdoj.gov.in%2Fvideos%2F&format=xml (from https://doj.gov.in/videos/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 46 seconds : 942 links scanned, 574 files written (68631608 bytes overall) [56009686 bytes received at 195838 bytes/sec], 20737390 bytes transferred using HTTP compression in 304 files, ratio 23%, 25.4 requests per connection
+(309 errors, 129 warnings, 0 messages)

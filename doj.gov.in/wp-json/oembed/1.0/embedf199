@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<oembed><code>rest_not_logged_in</code><message>You are not currently logged in.</message><data><status>401</status></data></oembed>

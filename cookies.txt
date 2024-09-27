@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+doj.gov.in	TRUE	/	FALSE	1999999999	PHPSESSID	krrn5vqnlr8ajh0d93j6afr6oj
+doj.gov.in	TRUE	/	FALSE	1999999999	SameSite	Lax
+
