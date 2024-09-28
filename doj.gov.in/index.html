@@ -114,6 +114,7 @@ var S3WaaSAccessibilityParams = {"blogInfoName":"Department of Justice","default
     cursor: pointer;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s; /* Smooth background change on hover */
+    z-index: 9999;
 }
 
 #chatbot-btn:hover {
@@ -126,12 +127,13 @@ var S3WaaSAccessibilityParams = {"blogInfoName":"Department of Justice","default
         position: fixed;
         bottom: 80px;
         right: 20px;
-        width: 350px; /* Increased width */
+        width: 450px; /* Increased width */
         height: 500px; /* Increased height */
         border: 2px solid #007bff;
         background-color: white;
         border-radius: 10px;
         box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+        z-index: 9999;
     }
 
     /* Chat header */
@@ -1656,8 +1658,6 @@ jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","curr
         chatbotBody.scrollTop = chatbotBody.scrollHeight; // Scroll to bottom
     }
 </script>
-
-
 
 </body>
 

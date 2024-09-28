@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Expansion with Graph Display</title>
+    <style>
+      .image-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .expandable-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+      .nodes-container {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 20px;
+      }
+
+      .node-wrapper {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      .arrow {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-top: 2px solid #eb0606;
+        border-right: 2px solid #eb0606;
+        transform: rotate(45deg);
+        margin: 0 10px;
+      }
+
+      .graph-container {
+        flex-grow: 1;
+        display: block;
+      }
+
+      .node {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .node-content {
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <!-- <img src="image.png" alt="Image" class="expandable-image" /> -->
+      <div class="graph-container">
+        <h2>Graph Title</h2>
+        <div class="nodes-container">
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 1</p>
+              <div class="node-content">
+                <p>Node 1 content</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow"></div>
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 2</p>
+              <div class="node-content">
+                <p>Node 2 content</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow"></div>
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 3</p>
+              <div class="node-content">
+                <p>Node 3 content</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow"></div>
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 4</p>
+              <div class="node-content">
+                <p>Node 4 content</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow"></div>
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 5</p>
+              <div class="node-content">
+                <p>Node 5 content</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow"></div>
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 1</p>
+              <div class="node-content">
+                <p>Node 1 content</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow"></div>
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 2</p>
+              <div class="node-content">
+                <p>Node 2 content</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow"></div>
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 3</p>
+              <div class="node-content">
+                <p>Node 3 content</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow"></div>
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 4</p>
+              <div class="node-content">
+                <p>Node 4 content</p>
+              </div>
+            </div>
+          </div>
+          <div class="arrow"></div>
+          <div class="node-wrapper">
+            <div class="node">
+              <p>  node 5</p>
+              <div class="node-content">
+                <p>Node 5 content</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Get the image and graph containers
+      const imageContainer = document.querySelector(".image-container");
+      const graphContainer = document.querySelector(".graph-container");
+      const expandableImage = document.querySelector(".expandable-image");
+        
+      // Add event listener to the image to toggle the graph display
+      expandableImage.addEventListener("click", () => {
+        graphContainer.style.display =
+          graphContainer.style.display === "block" ? "none" : "block";
+        expandableImage.style.display =
+          expandableImage.style.display === "block" ? "none" : "block";
+      });
+    </script>
+  </body>
+</html>
