@@ -4992,7 +4992,24 @@
     <!-- Chatbot Window -->
     <div id="chatbot-window">
       <div id="chatbot-header">Chatbot</div>
-      <div id="chatbot-body"></div>
+      <div id="chatbot-body">
+        <div class="language-select" id="language-select">
+            <label for="indic-languages">Select your language: </label>
+            <br/>
+            <select id="indic-languages">
+                <option value="hi">Hindi</option>
+                <option value="bn">Bengali</option>
+                <option value="te">Telugu</option>
+                <option value="mr">Marathi</option>
+                <option value="ta">Tamil</option>
+                <option value="gu">Gujarati</option>
+                <option value="kn">Kannada</option>
+                <option value="ml">Malayalam</option>
+                <option value="pa">Punjabi</option>
+                <option value="or">Odia</option>
+            </select>
+        </div>
+      </div>
       <div id="chatbot-input">
         <input type="text" id="user-input" placeholder="Type a message..." />
         <button id="send-btn" style="border: none; background: transparent">
@@ -5118,7 +5135,12 @@
         if (userMessage) {
           displayMessage(userMessage, "user");
           if (userMessage.includes("question1")) {
+            const parentDiv = document.getElementById('language-select');
+        if (parentDiv) {
+            parentDiv.remove(); // This removes the parent and all its child elements
+        }
             displayMessage(responseList[0], "bot");
+            
           }
           if (userMessage.includes("question2")) {
             displayMessage(responseList[1], "bot");

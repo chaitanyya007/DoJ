@@ -61,6 +61,26 @@
   border-radius: 10px 10px 0 0;
 }
 
+
+.language-select {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 200px;
+  appearance: none; /* Hides the default dropdown arrow */
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat right 10px center; /* Add custom arrow */
+  background-color: white;
+  background-size: 12px;
+}
+
+
 /* Chat body where messages appear */
 #chatbot-body {
   display: flex;
