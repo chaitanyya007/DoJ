@@ -16,12 +16,17 @@
     <meta name="lang" content="en" />
     <title>Department of Justice | Government of India | India</title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
     <link rel="pingback" href="xmlrpc.html" />
     <link
       rel="stylesheet"
       href="wp-content/themes/sdo-theme/css/print.css"
       type="text/css"
       media="print"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <meta name="robots" content="max-image-preview:large" />
     <meta
@@ -714,167 +719,7 @@
           "wp-admin/admin-ajax.html");
     </script>
 
-    <style>
-      /* Chatbot button styling */
-      #chatbot-btn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: transparent; /* Remove background */
-        border: none; /* Remove border */
-        padding: 10px; /* Add padding for better spacing */
-        border-radius: 50%; /* Make it circular */
-        cursor: pointer;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-        transition: background-color 0.3s; /* Smooth background change on hover */
-        z-index: 9999;
-      }
-
-      #chatbot-btn:hover {
-        background-color: rgba(
-          0,
-          123,
-          255,
-          0.1
-        ); /* Add a subtle hover effect */
-      }
-
-      /* Chat window styling */
-      #chatbot-window {
-        display: none;
-        position: fixed;
-        bottom: 80px;
-        right: 20px;
-        width: 450px; /* Increased width */
-        height: 550px; /* Increased height */
-        border: 2px solid #007bff;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
-        z-index: 9999;
-      }
-
-      /* Chat header */
-      #chatbot-header {
-        background-color: #007bff;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        font-weight: bold;
-        border-radius: 10px 10px 0 0;
-      }
-
-      /* Chat body where messages appear */
-      #chatbot-body {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        height: 450px; /* Adjusted for new window size */
-        overflow-y: auto;
-        font-family: Arial, sans-serif;
-      }
-
-      /* Chat input area */
-      #chatbot-input {
-        display: flex;
-        padding: 10px;
-        align-items: center;
-        border-top: 1px solid #007bff;
-      }
-
-      /* Input field */
-      #user-input {
-        flex: 1;
-        padding: 8px;
-        font-size: 16px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-      }
-
-      /* Send button */
-      #send-btn {
-        padding: 5px; /* Add padding for better spacing */
-        cursor: pointer;
-        background-color: transparent; /* Remove background */
-        border: none; /* Remove border */
-        transition: background-color 0.3s; /* Smooth background change on hover */
-      }
-
-      #send-btn:hover {
-        background-color: rgba(
-          0,
-          123,
-          255,
-          0.1
-        ); /* Add a subtle hover effect */
-      }
-      /* Message bubble styling */
-      .message {
-        display: inline-block;
-        padding: 8px;
-        margin: 5px;
-        border-radius: 5px;
-        max-width: 80%; /* Limit how wide the bubble can get */
-        word-wrap: break-word; /* Break long words */
-        white-space: normal; /* Allow text to wrap */
-      }
-
-      .user-message {
-        background-color: #007bff;
-        color: white;
-        text-align: right;
-        margin-left: auto; /* Align user message to the right */
-      }
-
-      .bot-message {
-        background-color: #e9e9e9;
-        color: black;
-        text-align: left;
-        margin-right: auto; /* Align bot message to the left */
-      }
-
-      /* Message bubble styling */
-      .message {
-        display: inline-block;
-        padding: 8px;
-        margin: 5px;
-        border-radius: 5px;
-        max-width: 80%; /* Limit how wide the bubble can get */
-        word-wrap: break-word; /* Break long words */
-        white-space: pre-wrap; /* Allow text to wrap */
-      }
-
-      .user-message {
-        background-color: #007bff;
-        color: white;
-        margin-left: auto;
-        float: right; /* Align bubble to the right */
-        clear: both;
-        text-align: left; /* Align text inside the bubble to the left */
-      }
-
-      .bot-message {
-        background-color: #e9e9e9;
-        color: black;
-        margin-right: auto;
-        float: left; /* Align bubble to the left */
-        clear: both;
-        text-align: left; /* Align text inside the bubble to the left */
-      }
-
-      .image-message {
-        position: relative;
-      }
-      .image-message:hover {
-        opacity: 0.8;
-      }
-      .image-message button {
-        display: none;
-      }
-      .image-message:hover button {
-        display: block;
-      }
-    </style>
+    
   </head>
   <body
     class="home page-template-default page page-id-11468 lang-en style-1 home-doj wpb-js-composer js-comp-ver-6.11.0 vc_responsive"
@@ -895,7 +740,7 @@
                         aria-label="Skip to main content"
                         title="Skip to main content"
                       >
-                        <span class="m-hide">Skipi to main content</span>
+                        <span class="m-hide">Skip to main content</span>
                         <span class="icon-skip-to-main m-show"></span>
                       </a>
                     </li>
@@ -5161,6 +5006,158 @@
         </button>
       </div>
     </div>
+    <div class="search-container">
+      <div class="input-group">
+        <label for="judgeName">Judge Name:</label>
+        <input
+          type="text"
+          id="judgeName"
+          name="judgeName"
+          placeholder="Enter judge's name"
+          required
+          class="full-width-input"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="decisionDateStart">Decision Date Range:</label>
+        <div class="date-range">
+          <input
+            type="date"
+            id="decisionDateStart"
+            name="decisionDateStart"
+            required
+            class="date-input"
+          />
+          <span class="to-label">to</span>
+          <input
+            type="date"
+            id="decisionDateEnd"
+            name="decisionDateEnd"
+            required
+            class="date-input"
+          />
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="actSection1">Act/Section 1:</label>
+        <input
+          type="text"
+          id="actSection1"
+          name="actSection1"
+          placeholder="Enter Act/Section"
+          required
+          class="full-width-input"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="actSection2">Act/Section 2:</label>
+        <input
+          type="text"
+          id="actSection2"
+          name="actSection2"
+          placeholder="Enter Act/Section"
+          required
+          class="full-width-input"
+        />
+      </div>
+    </div>
+    <div class="graph-container">
+      <h2>Related Judgements</h2>
+      <div class="nodes-container">
+        <div class="node-wrapper">
+          <div class="node">
+            <p>09-07-2024</p>
+            <div class="node-content">
+              <p>Case No: CRIMINAL APPEAL/696/2010</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow"></div>
+        <div class="node-wrapper">
+          <div class="node">
+            <p>node 2</p>
+            <div class="node-content">
+              <p>Node 2 content</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow"></div>
+        <div class="node-wrapper">
+          <div class="node">
+            <p>node 3</p>
+            <div class="node-content">
+              <p>Node 3 content</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow"></div>
+        <div class="node-wrapper">
+          <div class="node">
+            <p>node 4</p>
+            <div class="node-content">
+              <p>Node 4 content</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow"></div>
+        <div class="node-wrapper">
+          <div class="node">
+            <p>node 5</p>
+            <div class="node-content">
+              <p>Node 5 content</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow"></div>
+        <div class="node-wrapper">
+          <div class="node">
+            <p>node 1</p>
+            <div class="node-content">
+              <p>Node 1 content</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow"></div>
+        <div class="node-wrapper">
+          <div class="node">
+            <p>node 2</p>
+            <div class="node-content">
+              <p>Node 2 content</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow"></div>
+        <div class="node-wrapper">
+          <div class="node">
+            <p>node 3</p>
+            <div class="node-content">
+              <p>Node 3 content</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow"></div>
+        <div class="node-wrapper">
+          <div class="node">
+            <p>node 4</p>
+            <div class="node-content">
+              <p>Node 4 content</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow"></div>
+        <div class="node-wrapper">
+          <div class="node">
+            <p>node 5</p>
+            <div class="node-content">
+              <p>Node 5 content</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script>
       // Get references to elements
@@ -5194,7 +5191,7 @@
         const userMessage = userInput.value.trim();
         if (userMessage) {
           displayMessage(userMessage, "user");
-          if (userMessage.toLowerCase().includes("image")) {
+          if (userMessage.toLowerCase().includes("aa")) {
             displayImage();
           } else {
             displayMessage("Welcome to chatbot", "bot");
@@ -5215,25 +5212,52 @@
         chatbotBody.scrollTop = chatbotBody.scrollHeight; // Scroll to bottom
       }
 
-      function displayImage() {
+      function displayImage(src = "image.png") {
         const imageElement = document.createElement("div");
         imageElement.classList.add("image-message");
+
         const img = document.createElement("img");
-        img.src = "image.png"; // Replace with your desired image URL
+        img.src = src;
         img.alt = "Image Response";
         imageElement.appendChild(img);
+
         const button = document.createElement("button");
-        button.innerHTML = '<i class="fas fa-expand-alt expand-icon"></i>'; // Replace with your desired icon
-        button.style.position = "absolute";
-        button.style.top = "10px";
-        button.style.right = "10px";
-        button.style.cursor = "pointer";
+        button.innerHTML = '<i class="fas fa-expand-alt expand-icon"></i>';
+        button.classList.add("expand-button");
         button.addEventListener("click", () => {
-          alert("Image clicked!");
+          popup();
         });
         imageElement.appendChild(button);
         chatbotBody.appendChild(imageElement);
-        chatbotBody.scrollTop = chatbotBody.scrollHeight; // Scroll to bottom
+        chatbotBody.scrollTop = chatbotBody.scrollHeight;
+      }
+
+      function popup(name = "graph-container") {
+        const popup = document.createElement("div");
+        popup.classList.add("popup");
+        document.body.appendChild(popup);
+
+        const closeButton = document.createElement("button");
+        closeButton.classList.add("close-btn");
+        closeButton.innerHTML = "&times;";
+        closeButton.onclick = () => {
+          popup.style.display = "none";
+          //   document.body.removeChild(popup);
+        };
+
+        popup.appendChild(closeButton);
+
+        const graphContainer = document.getElementsByClassName(name);
+        console.log(graphContainer[0]);
+        graphContainer[0].style.display = "block";
+        popup.appendChild(graphContainer[0]);
+
+        const searchContainer =
+          document.getElementsByClassName("search-container");
+        searchContainer[0].style.display = "flex";
+        popup.appendChild(searchContainer[0]);
+
+        popup.style.display = "flex";
       }
     </script>
   </body>

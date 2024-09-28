@@ -61,16 +61,44 @@
     </style>
   </head>
   <body>
+    <div style="display: flex; flex-direction: row; justify-content: space-between; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+      <div style="flex: 1; margin-right: 10px;">
+          <label for="judgeName">Judge Name:</label>
+          <input type="text" id="judgeName" name="judgeName" placeholder="Enter judge's name" required style="width: 100%;">
+      </div>
+      
+      <div style="flex: 1; margin-right: 10px;">
+          <label for="decisionDateStart">Decision Date Range:</label>
+          <div style="display: flex; justify-content: space-between;">
+              <input type="date" id="decisionDateStart" name="decisionDateStart" required style="flex: 1; margin-right: 5px;">
+              <span style="align-self: center;">to</span>
+              <input type="date" id="decisionDateEnd" name="decisionDateEnd" required style="flex: 1; margin-left: 5px;">
+          </div>
+      </div>
+      
+      <div style="flex: 1; margin-right: 10px;">
+          <label for="actSection1">Act/Section 1:</label>
+          <input type="text" id="actSection1" name="actSection1" placeholder="Enter Act/Section" required style="width: 100%;">
+      </div>
+      
+      <div style="flex: 1;">
+          <label for="actSection2">Act/Section 2:</label>
+          <input type="text" id="actSection2" name="actSection2" placeholder="Enter Act/Section" required style="width: 100%;">
+      </div>
+  </div>
+  
+  
+  
     <div class="image-container">
       <!-- <img src="image.png" alt="Image" class="expandable-image" /> -->
       <div class="graph-container">
-        <h2>Graph Title</h2>
+        <h2>List Of Related Judjements</h2>
         <div class="nodes-container">
           <div class="node-wrapper">
             <div class="node">
-              <p>  node 1</p>
+              <p>09-07-2024</p>
               <div class="node-content">
-                <p>Node 1 content</p>
+                <p>Case No : CRIMINAL APPEAL/696/2010</p>
               </div>
             </div>
           </div>
