@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Send Request to Server</title>
+  </head>
+  <body>
+    <h1>Send Request to Server</h1>
+    <form id="myForm">
+      <input type="text" id="requestData" name="requestData" placeholder="Enter request data">
+      <button type="submit">Send Request</button>
+    </form>
+    <div id="responseDiv"></div>
+
+    <script>
+      const form = document.getElementById('myForm');
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const requestData = document.getElementById('requestData').value;
+        const response = await fetch('https://y0t7ipzqw7i-496ff2e9c6d22116-5000-colab.googleusercontent.com/your_script', {
+  mode: 'no-cors'
+})
+        const responseData = await response.text();
+        document.getElementById('responseDiv').innerHTML = `Response from server: ${responseData}`;
+      });
+    </script>
+  </body>
+</html>
