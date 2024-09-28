@@ -5073,6 +5073,7 @@
     </div>
 
     <script>
+      let idx = -1;
       // Get references to elements
       const chatbotBtn = document.getElementById("chatbot-btn");
       const chatbotWindow = document.getElementById("chatbot-window");
@@ -5099,15 +5100,23 @@
         }
       });
 
-      // Function to send a message
+      responseList = [
+        "kjdskjds",
+        "ejfjnskjfsd",
+        "kjdskjds",
+        "call function image.png",
+        "call function image.png",
+      ];
       function sendMessage() {
+        idx = idx + 1;
         const userMessage = userInput.value.trim();
         if (userMessage) {
           displayMessage(userMessage, "user");
-          if (userMessage.toLowerCase().includes("aa")) {
-            displayImage();
+          if (responseList[idx].includes("function")) {
+            let [a, b, c] = responseList[idx].split(",");
+            displayImage(c);
           } else {
-            displayMessage("Welcome to chatbot", "bot");
+            displayMessage(responseList[idx], "bot");
           }
           userInput.value = ""; // Clear input
         }
@@ -5151,7 +5160,11 @@
             date: "09-07-2024",
             content: "CRIMINAL APPEAL/696/2010",
             pdfName: "",
-            summary: "",
+            summary: `vdsnv dskv s
+            lkdks vl  
+            dslnv lks 
+            vslkldn kls 
+            dvs `
           },
           {
             date: "node 2",
@@ -5257,7 +5270,7 @@
           const contentDiv = document.createElement("div");
           contentDiv.classList.add("node-content");
 
-          const contentParagraph = document.createElement("p");
+          const contentParagraph = document.createElement("pre");
           contentParagraph.textContent = item.content;
           contentDiv.appendChild(contentParagraph);
 

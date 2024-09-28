@@ -99,7 +99,9 @@
         border-radius: 5px;
         max-width: 80%; /* Limit how wide the bubble can get */
         word-wrap: break-word; /* Break long words */
-        white-space: normal; /* Allow text to wrap */
+        white-space: pre-wrap; /* Allow text to wrap */
+    /* Ensure newer messages do not overlap */
+    align-self: flex-start;  /* Allow text to wrap */
       }
 
       .user-message {
@@ -296,7 +298,7 @@
         border-radius: 10px; /* Optional: Round the corners */
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
         max-width: 90%; /* Limit the width of the container */
-        max-height: 50%; /* Limit the height of the container */
+        max-height: 60%; /* Limit the height of the container */
         overflow: hidden; /* Enable scrolling if content overflows */
         /* flex-grow: 1; */
         display: none;
