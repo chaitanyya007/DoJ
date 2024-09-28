@@ -5039,28 +5039,17 @@
       </div>
 
       <div class="input-group">
-        <label for="actSection1">ACT</label>
+        <label for="actSection1">ACT/SECTIONS</label>
         <input
           type="text"
           id="actSection1"
           name="actSection1"
-          placeholder="Enter Acts Related"
+          placeholder="Enter Acts/Sections Related"
           required
           class="full-width-input"
         />
       </div>
-
-      <div class="input-group">
-        <label for="actSection2">Section</label>
-        <input
-          type="text"
-          id="actSection2"
-          name="actSection2"
-          placeholder="Enter Section Related"
-          required
-          class="full-width-input"
-        />
-      </div>
+        <button class="submitDate" onClick="filterDate()">Filter</button>
     </div>
     <div class="graph-container"></div>
 
@@ -5306,8 +5295,8 @@ Outcome: Convictions quashed; appellants acquitted.`
           const contentDiv = document.createElement("div");
           contentDiv.classList.add("node-content");
 
-          const contentParagraph = document.createElement("pre");
-          contentParagraph.textContent = item.content;
+          const contentParagraph = document.createElement("p");
+          contentParagraph.textContent = 'Case No: ' + item.content;
           contentDiv.appendChild(contentParagraph);
 
           node.appendChild(contentDiv);
@@ -5371,6 +5360,16 @@ Outcome: Convictions quashed; appellants acquitted.`
 
         popup.style.display = "flex";
       }
+
+      function filterDate() {
+            const parent = document.querySelector('.nodes-container');
+            // Loop through the first 4 child nodes and remove them
+            for (let i = 0; i < 4; i++) {
+                if (parent.firstChild) {
+                    parent.removeChild(parent.firstChild);
+                }
+            }
+        }
 
       const closeModal = () => {
         const modal = document.getElementById("modal");
