@@ -16,7 +16,7 @@
     <meta name="lang" content="en" />
     <title>Department of Justice | Government of India | India</title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="pingback" href="xmlrpc.html" />
     <link
       rel="stylesheet"
@@ -718,8 +718,6 @@
         AJAXURL =
           "wp-admin/admin-ajax.html");
     </script>
-
-    
   </head>
   <body
     class="home page-template-default page page-id-11468 lang-en style-1 home-doj wpb-js-composer js-comp-ver-6.11.0 vc_responsive"
@@ -5041,121 +5039,36 @@
       </div>
 
       <div class="input-group">
-        <label for="actSection1">Act/Section 1:</label>
+        <label for="actSection1">ACT</label>
         <input
           type="text"
           id="actSection1"
           name="actSection1"
-          placeholder="Enter Act/Section"
+          placeholder="Enter Acts Related"
           required
           class="full-width-input"
         />
       </div>
 
       <div class="input-group">
-        <label for="actSection2">Act/Section 2:</label>
+        <label for="actSection2">Section</label>
         <input
           type="text"
           id="actSection2"
           name="actSection2"
-          placeholder="Enter Act/Section"
+          placeholder="Enter Section Related"
           required
           class="full-width-input"
         />
       </div>
     </div>
-    <div class="graph-container">
-      <h2>Related Judgements</h2>
-      <div class="nodes-container">
-        <div class="node-wrapper">
-          <div class="node">
-            <p>09-07-2024</p>
-            <div class="node-content">
-              <p>Case No: CRIMINAL APPEAL/696/2010</p>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="node-wrapper">
-          <div class="node">
-            <p>node 2</p>
-            <div class="node-content">
-              <p>Node 2 content</p>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="node-wrapper">
-          <div class="node">
-            <p>node 3</p>
-            <div class="node-content">
-              <p>Node 3 content</p>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="node-wrapper">
-          <div class="node">
-            <p>node 4</p>
-            <div class="node-content">
-              <p>Node 4 content</p>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="node-wrapper">
-          <div class="node">
-            <p>node 5</p>
-            <div class="node-content">
-              <p>Node 5 content</p>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="node-wrapper">
-          <div class="node">
-            <p>node 1</p>
-            <div class="node-content">
-              <p>Node 1 content</p>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="node-wrapper">
-          <div class="node">
-            <p>node 2</p>
-            <div class="node-content">
-              <p>Node 2 content</p>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="node-wrapper">
-          <div class="node">
-            <p>node 3</p>
-            <div class="node-content">
-              <p>Node 3 content</p>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="node-wrapper">
-          <div class="node">
-            <p>node 4</p>
-            <div class="node-content">
-              <p>Node 4 content</p>
-            </div>
-          </div>
-        </div>
-        <div class="arrow"></div>
-        <div class="node-wrapper">
-          <div class="node">
-            <p>node 5</p>
-            <div class="node-content">
-              <p>Node 5 content</p>
-            </div>
-          </div>
-        </div>
+    <div class="graph-container"></div>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="modal-close" class="modal-close">&times;</span>
+        <p id="modal-text"></p>
       </div>
     </div>
 
@@ -5232,7 +5145,70 @@
         chatbotBody.scrollTop = chatbotBody.scrollHeight;
       }
 
-      function popup(name = "graph-container") {
+      function popup(
+        data = [
+          {
+            date: "09-07-2024",
+            content: "CRIMINAL APPEAL/696/2010",
+            pdfName: "",
+            summary: "",
+          },
+          {
+            date: "node 2",
+            content: "Node 2 content",
+            pdfName: "",
+            summary: "",
+          },
+          {
+            date: "node 3",
+            content: "Node 3 content",
+            pdfName: "",
+            summary: "",
+          },
+          {
+            date: "node 4",
+            content: "Node 4 content",
+            pdfName: "",
+            summary: "",
+          },
+          {
+            date: "node 5",
+            content: "Node 5 content",
+            pdfName: "",
+            summary: "",
+          },
+          {
+            date: "node 1",
+            content: "Node 1 content",
+            pdfName: "",
+            summary: "",
+          },
+          {
+            date: "node 2",
+            content: "Node 2 content",
+            pdfName: "",
+            summary: "",
+          },
+          {
+            date: "node 3",
+            content: "Node 3 content",
+            pdfName: "",
+            summary: "",
+          },
+          {
+            date: "node 4",
+            content: "Node 4 content",
+            pdfName: "",
+            summary: "",
+          },
+          {
+            date: "node 5",
+            content: "Node 5 content",
+            pdfName: "",
+            summary: "",
+          },
+        ]
+      ) {
         const popup = document.createElement("div");
         popup.classList.add("popup");
         document.body.appendChild(popup);
@@ -5242,15 +5218,89 @@
         closeButton.innerHTML = "&times;";
         closeButton.onclick = () => {
           popup.style.display = "none";
-          //   document.body.removeChild(popup);
+
+          const graphContainers = document.querySelectorAll(".graph-container");
+          graphContainers.forEach((graphContainer) => {
+            while (graphContainer.firstChild) {
+              graphContainer.removeChild(graphContainer.firstChild);
+            }
+            graphContainer.style.display = "none";
+          });
         };
 
         popup.appendChild(closeButton);
 
-        const graphContainer = document.getElementsByClassName(name);
-        console.log(graphContainer[0]);
-        graphContainer[0].style.display = "block";
-        popup.appendChild(graphContainer[0]);
+        const graphContainer =
+          document.getElementsByClassName("graph-container")[0];
+        graphContainer.style.display = "block";
+
+        const header = document.createElement("h2");
+        header.textContent = "Related Judgements";
+        graphContainer.appendChild(header);
+
+        const nodesContainer = document.createElement("div");
+        nodesContainer.classList.add("nodes-container");
+
+        data.forEach((item, index) => {
+          // Node wrapper
+          const nodeWrapper = document.createElement("div");
+          nodeWrapper.classList.add("node-wrapper");
+
+          // Node div
+          const node = document.createElement("div");
+          node.classList.add("node");
+
+          const dateParagraph = document.createElement("p");
+          dateParagraph.textContent = item.date;
+          node.appendChild(dateParagraph);
+
+          const contentDiv = document.createElement("div");
+          contentDiv.classList.add("node-content");
+
+          const contentParagraph = document.createElement("p");
+          contentParagraph.textContent = item.content;
+          contentDiv.appendChild(contentParagraph);
+
+          node.appendChild(contentDiv);
+
+          const buttonsDiv = document.createElement("div");
+          buttonsDiv.classList.add("node-buttons");
+
+          const downloadBtn = document.createElement("button");
+          downloadBtn.textContent = "Download PDF";
+
+          downloadBtn.addEventListener("click", () => {
+            const link = document.createElement("a");
+            link.href = `./pdfs/${item.pdfName}`;
+            link.download = item.pdfFile;
+            link.click();
+          });
+
+          const summarizeBtn = document.createElement("button");
+          summarizeBtn.textContent = "Summarize Case";
+
+          summarizeBtn.addEventListener("click", () => {
+            const modalText = document.getElementById("modal-text");
+            modalText.textContent = `Summary of case: ${item.summary}`;
+            const modal = document.getElementById("modal");
+            modal.style.display = "block";
+          });
+
+          buttonsDiv.appendChild(downloadBtn);
+          buttonsDiv.appendChild(summarizeBtn);
+          node.appendChild(buttonsDiv);
+          nodeWrapper.appendChild(node);
+          nodesContainer.appendChild(nodeWrapper);
+
+          if (index < data.length - 1) {
+            const arrow = document.createElement("div");
+            arrow.classList.add("arrow");
+            nodesContainer.appendChild(arrow);
+          }
+        });
+
+        graphContainer.appendChild(nodesContainer);
+        popup.appendChild(graphContainer);
 
         const searchContainer =
           document.getElementsByClassName("search-container");
@@ -5259,6 +5309,15 @@
 
         popup.style.display = "flex";
       }
+
+      const closeModal = () => {
+        const modal = document.getElementById("modal");
+        modal.style.display = "none";
+      };
+
+      document
+        .getElementById("modal-close")
+        .addEventListener("click", closeModal);
     </script>
   </body>
 
