@@ -4997,6 +4997,7 @@
             <label for="indic-languages">Select your language: </label>
             <br/>
             <select id="indic-languages">
+                <option value="hi">English</option>
                 <option value="hi">Hindi</option>
                 <option value="bn">Bengali</option>
                 <option value="te">Telugu</option>
@@ -5091,7 +5092,7 @@
       let isChatbotOpen = false;
 
       // Toggle chatbot window visibility
-      chatbotBtn.addEventListener("click", () => {
+      chatbotBtn.addEventListener("click", () => {  
         isChatbotOpen = !isChatbotOpen;
         chatbotWindow.style.display = isChatbotOpen ? "block" : "none";
       });
