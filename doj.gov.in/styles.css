@@ -1,26 +1,32 @@
 /* Chatbot button styling */
-      #chatbot-btn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: transparent; /* Remove background */
-        border: none; /* Remove border */
-        padding: 10px; /* Add padding for better spacing */
-        border-radius: 50%; /* Make it circular */
-        cursor: pointer;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-        transition: background-color 0.3s; /* Smooth background change on hover */
-        z-index: 999;
-      }
+#chatbot-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff; /* Blue background */
+  border: none;
+  padding: 15px; /* More padding for larger button */
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.6); /* Stronger shadow for a more 3D effect */
+  transition: all 0.3s ease-in-out; /* Smooth transitions */
+  z-index: 999;
+  background-image: linear-gradient(45deg, #007bff, #00c6ff); /* Gradient for vibrant look */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-      #chatbot-btn:hover {
-        background-color: rgba(
-          0,
-          123,
-          255,
-          0.1
-        ); /* Add a subtle hover effect */
-      }
+#chatbot-btn:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  background-image: linear-gradient(45deg, #00c6ff, #007bff); /* Reverse gradient on hover */
+  box-shadow: 0px 8px 20px rgba(0, 123, 255, 0.8); /* Stronger shadow on hover */
+}
+
+#chatbot-btn img {
+  width: 40px; /* Set a good size for the icon */
+  height: 40px;
+}
 
       /* Chat window styling */
       #chatbot-window {

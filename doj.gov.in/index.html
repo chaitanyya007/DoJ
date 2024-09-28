@@ -5101,26 +5101,47 @@
       });
 
       responseList = [
-        "kjdskjds",
-        "ejfjnskjfsd",
-        "kjdskjds",
-        "call function image.png",
+        `Main functions of the Department of Justice in India: Appointment and Service of Judges: The department manages appointments, transfers, and removals of judges in the Supreme Court and High Courts. Judicial Reforms: Focuses on improving infrastructure, setting up special courts for sensitive cases (such as rape and POCSO cases), and implementing projects like e-Courts. Legal Aid Programs: Supports initiatives like Tele-law (reaching remote areas) and Nyaya Mitra (for legal aid and pro-bono services)`,
+
+        `Sure, here's the answer to the query: Based on the context, fast track courts are specialized courts set up for the expeditious trial and disposal of cases involving rape or the POCSO Act. This scheme aims to streamline the legal process, reduce case pendency, and ensure timely resolution of these sensitive cases.
+        `,
+        "call xyz image.png",
         "call function image.png",
       ];
+     /* idx = -1;
       function sendMessage() {
         idx = idx + 1;
         const userMessage = userInput.value.trim();
         if (userMessage) {
           displayMessage(userMessage, "user");
-          if (responseList[idx].includes("function")) {
+          if (responseList[idx].includes("xyz")) {
             let [a, b, c] = responseList[idx].split(",");
+            console.log(c);
             displayImage(c);
           } else {
             displayMessage(responseList[idx], "bot");
           }
           userInput.value = ""; // Clear input
         }
+      }*/
+      function sendMessage() {
+        const userMessage = userInput.value.trim();
+        if (userMessage) {
+          displayMessage(userMessage, "user");
+          if (userMessage.includes("question1")) {
+            displayMessage(responseList[0], "bot");
+          }
+          if (userMessage.includes("question2")) {
+            displayMessage(responseList[1], "bot");
+          }
+          if (userMessage.includes("question3")) {
+            displayImage();
+          
+          } 
+          userInput.value = ""; // Clear input
+        }
       }
+    
 
       // Display a message in the chat window
       function displayMessage(message, sender) {
@@ -5140,7 +5161,7 @@
 
         const img = document.createElement("img");
         img.src = src;
-        img.alt = "Image Response";
+        img.alt = "   Image Response";
         imageElement.appendChild(img);
 
         const button = document.createElement("button");
@@ -5160,63 +5181,78 @@
             date: "09-07-2024",
             content: "CRIMINAL APPEAL/696/2010",
             pdfName: "",
-            summary: `vdsnv dskv s
-            lkdks vl  
-            dslnv lks 
-            vslkldn kls 
-            dvs `
+            summary: `Summary of Gaurav Maini v. The State of Haryana
+Case: Criminal Appeal No. 696 of 2010
+
+Judgment Date: 09 July 2024
+
+Judges: B.R. Gavai and Sandeep Mehta
+
+Key Issues: Conviction for kidnapping, robbery, and conspiracy.
+
+Findings:
+
+Prosecution's case deemed fabricated and lacking credible evidence.
+
+FIR registered without proper verification.
+
+Key witness (grandfather) not examined, raising doubts.
+
+Procedural errors in evidence handling.
+
+Outcome: Convictions quashed; appellants acquitted.`
           },
           {
-            date: "node 2",
-            content: "Node 2 content",
+            date: "08-07-2024",
+            content: "CRIMINAL APPEAL/129/2012",
             pdfName: "",
             summary: "",
           },
           {
-            date: "node 3",
-            content: "Node 3 content",
+            date: "03-05-2024",
+            content: "CRIMINAL APPEAL/437/2015 ",
             pdfName: "",
             summary: "",
           },
           {
-            date: "node 4",
-            content: "Node 4 content",
+            date: "21-03-2024 ",
+            content: "CRIMINAL APPEAL/1738/2024",
             pdfName: "",
             summary: "",
           },
           {
-            date: "node 5",
-            content: "Node 5 content",
+            date: "18-03-2024",
+            content: "CRIMINAL APPEAL/1215/2011",
             pdfName: "",
             summary: "",
           },
           {
-            date: "node 1",
-            content: "Node 1 content",
+            date: "18-03-2024",
+            content: "CRIMINAL APPEAL/1717/2024",
             pdfName: "",
             summary: "",
           },
           {
-            date: "node 2",
-            content: "Node 2 content",
+            date: "06-03-2024",
+            content: "CRIMINAL APPEAL/918/2024",
             pdfName: "",
             summary: "",
           },
           {
-            date: "node 3",
-            content: "Node 3 content",
+            date: "03-01-2024",
+            content: "CRIMINAL APPEAL/1420/2019",
             pdfName: "",
             summary: "",
           },
           {
-            date: "node 4",
-            content: "Node 4 content",
+            date: "29-11-2023",
+            content: "CRIMINAL APPEAL/2779/2023",
             pdfName: "",
             summary: "",
           },
           {
-            date: "node 5",
-            content: "Node 5 content",
+            date: "21-09-2023",
+            content: "CRIMINAL APPEAL/520/2022",
             pdfName: "",
             summary: "",
           },
@@ -5284,7 +5320,7 @@
 
           downloadBtn.addEventListener("click", () => {
             const link = document.createElement("a");
-            link.href = `./pdfs/${item.pdfName}`;
+            link.href = "file:///C:/Users/chait/OneDrive/Desktop/summary.pdf";
             link.download = item.pdfFile;
             link.click();
           });
@@ -5298,7 +5334,20 @@
             const modal = document.getElementById("modal");
             modal.style.display = "block";
           });
-
+        
+          summarizeBtn.addEventListener("click", () => {
+            const modalText = document.getElementById("modal-text");
+            const summaryLines = item.summary.split("\n");
+            modalText.innerHTML = "";
+            summaryLines.forEach((line) => {
+              const paragraph = document.createElement("p");
+              paragraph.textContent = line;
+              modalText.appendChild(paragraph);
+            });
+            const modal = document.getElementById("modal");
+            modal.style.display = "block";
+          });
+            
           buttonsDiv.appendChild(downloadBtn);
           buttonsDiv.appendChild(summarizeBtn);
           node.appendChild(buttonsDiv);
