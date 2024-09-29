@@ -1,0 +1,380 @@
+/* Chatbot button styling */
+#chatbot-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; /* Blue background */
+    border: none;
+    padding: 15px; /* More padding for larger button */
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.6); /* Stronger shadow for a more 3D effect */
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+    z-index: 999;
+    background-image: linear-gradient(45deg, #007bff, #00c6ff); /* Gradient for vibrant look */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #chatbot-btn:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    background-image: linear-gradient(45deg, #00c6ff, #007bff); /* Reverse gradient on hover */
+    box-shadow: 0px 8px 20px rgba(0, 123, 255, 0.8); /* Stronger shadow on hover */
+  }
+  
+  #chatbot-btn img {
+    width: 40px; /* Set a good size for the icon */
+    height: 40px;
+  }
+  
+        /* Chat window styling */
+        #chatbot-window {
+          display: none;
+          position: fixed;
+          bottom: 80px;
+          right: 20px;
+          width: 450px; /* Increased width */
+          height: 550px; /* Increased height */
+          border: 2px solid #007bff;
+          background-color: white;
+          border-radius: 10px;
+          box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+          z-index: 999;
+        }
+  
+        /* Chat header */
+        #chatbot-header {
+          background-color: #007bff;
+          color: white;
+          padding: 10px;
+          text-align: center;
+          font-weight: bold;
+          border-radius: 10px 10px 0 0;
+        }
+  
+        /* Chat body where messages appear */
+        #chatbot-body {
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+          height: 450px; /* Adjusted for new window size */
+          overflow-y: auto;
+          font-family: Arial, sans-serif;
+        }
+  
+        /* Chat input area */
+        #chatbot-input {
+          display: flex;
+          padding: 10px;
+          align-items: center;
+          border-top: 1px solid #007bff;
+        }
+  
+        /* Input field */
+        #user-input {
+          flex: 1;
+          padding: 8px;
+          font-size: 16px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+        }
+  
+        /* Send button */
+        #send-btn {
+          padding: 5px; /* Add padding for better spacing */
+          cursor: pointer;
+          background-color: transparent; /* Remove background */
+          border: none; /* Remove border */
+          transition: background-color 0.3s; /* Smooth background change on hover */
+        }
+  
+        #send-btn:hover {
+          background-color: rgba(
+            0,
+            123,
+            255,
+            0.1
+          ); /* Add a subtle hover effect */
+        }
+        /* Message bubble styling */
+        .message {
+          display: inline-block;
+          padding: 8px;
+          margin: 5px;
+          border-radius: 5px;
+          max-width: 80%; /* Limit how wide the bubble can get */
+          word-wrap: break-word; /* Break long words */
+          white-space: pre-wrap; /* Allow text to wrap */
+      /* Ensure newer messages do not overlap */
+      align-self: flex-start;  /* Allow text to wrap */
+        }
+  
+        .user-message {
+          background-color: #007bff;
+          color: white;
+          text-align: right;
+          margin-left: auto; /* Align user message to the right */
+        }
+  
+        .bot-message {
+          background-color: #e9e9e9;
+          color: black;
+          text-align: left;
+          margin-right: auto; /* Align bot message to the left */
+        }
+  
+        /* Message bubble styling */
+        .message {
+          display: inline-block;
+          padding: 8px;
+          margin: 5px;
+          border-radius: 5px;
+          max-width: 80%; /* Limit how wide the bubble can get */
+          word-wrap: break-word; /* Break long words */
+          white-space: pre-wrap; /* Allow text to wrap */
+        }
+  
+        .user-message {
+          background-color: #007bff;
+          color: white;
+          margin-left: auto;
+          float: right; /* Align bubble to the right */
+          clear: both;
+          text-align: left; /* Align text inside the bubble to the left */
+        }
+  
+        .bot-message {
+          background-color: #e9e9e9;
+          color: black;
+          margin-right: auto;
+          float: left; /* Align bubble to the left */
+          clear: both;
+          text-align: left; /* Align text inside the bubble to the left */
+        }
+  
+        .image-message {
+          position: relative; /* Allows absolute positioning of the button */
+          display: inline-block; /* Ensures the div sizes itself based on the image */
+          overflow: hidden; /* Hides any overflowing content */
+          object-fit: cover;
+        }
+  
+        .image-message img {
+          display: block; /* Prevents extra space below the image */
+          max-width: 100%; /* Responsive sizing; ensures the image doesn't exceed the container width */
+          height: auto; /* Maintains aspect ratio */
+          transform: scale(1.1);
+        }
+  
+        .expand-button {
+          position: absolute; /* Position the button absolutely within image-message */
+          top: 10px; /* Position from the top */
+          right: 10px; /* Position from the right */
+          cursor: pointer; /* Change cursor to pointer */
+          display: none; /* Hide the button by default */
+          background: rgba(
+            255,
+            255,
+            255,
+            0.7
+          ); /* Optional: background for better visibility */
+          border: none; /* Removes default button styling */
+          padding: 5px; /* Optional: add some padding for a better look */
+          border-radius: 5px; /* Optional: rounded corners for the button */
+        }
+  
+        .image-message:hover img {
+          opacity: 0.5;
+        }
+        .image-message:hover .expand-button {
+          display: block; /* Show the button when hovering over imageElement */
+        }
+  
+        .nodes-container {
+          overflow-x: auto;
+          white-space: nowrap;
+          padding: 20px;
+        }
+  
+        .node-wrapper {
+          display: inline-block;
+          margin: 0 10px;
+        }
+  
+        .arrow {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          border-top: 2px solid #eb0606;
+          border-right: 2px solid #eb0606;
+          transform: rotate(45deg);
+          margin: 0 10px;
+        }
+  
+        .graph-container {
+          padding: 20px; /* Add padding around the content */
+          background-color: white; /* Optional: Add background color for visibility */
+          border-radius: 10px; /* Optional: Round the corners */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+          max-width: 90%; /* Limit the width of the container */
+          max-height: 80%; /* Limit the height of the container */
+          overflow: auto; /* Enable scrolling if content overflows */
+          flex-grow: 1;
+          display: none;
+        }
+  
+        .node {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+  
+        .node-content {
+          background-color: #fff;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        .node-buttons {
+          display: flex;
+          gap: 10px;
+      }
+  
+      .node-buttons button {
+          padding: 8px 15px;
+          border: none;
+          border-radius: 5px;
+          background-color: #007bff;
+          color: white;
+          font-size: 14px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+  
+        .popup {
+          position: fixed; /* Stay in place */
+          z-index: 1000; /* Sit on top */
+          left: 50%; /* Center horizontally */
+          top: 50%; /* Center vertically */
+          background-color: #ffffff;
+          width: 80%; /* Decreased width */
+          height: 90%; /* Decreased height */
+          transform: translate(-50%, -50%); /* Center the popup */
+          overflow: auto; /* Enable scroll if needed */
+          border-radius: 10px; /* Optional: Rounded corners */
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for depth */
+          display: flex; /* Enable flexbox */
+          justify-content: center; /* Center content horizontally */
+          align-items: center;
+          flex-direction: column;
+          gap:30px;
+        }
+  
+        .close-btn {
+          position: absolute; /* Position relative to the popup */
+          right: 0px; /* Right alignment */
+          top: 0px; /* Top alignment */
+          background: transparent; /* No background */
+          border: none; /* No border */
+          cursor: pointer; /* Pointer cursor */
+          font-size: 20px; /* Icon size */
+          color: red; /* Icon color */
+        }
+  
+        .close-btn:hover {
+          color: #ff4d4d; /* Change color on hover */
+        }
+  
+        .search-container {
+          display: none;
+          flex-direction: row;
+          justify-content: space-between;
+          padding: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          /* padding: 10px; Add padding around the content */
+          border-radius: 10px; /* Optional: Round the corners */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+          max-width: 90%; /* Limit the width of the container */
+          max-height: 60%; /* Limit the height of the container */
+          overflow: hidden; /* Enable scrolling if content overflows */
+          /* flex-grow: 1; */
+          display: none;
+        }
+        .input-group {
+          flex: 1;
+          margin-right: 10px;
+        }
+        .input-group:last-child {
+          margin-right: 0; /* Remove margin for the last input group */
+        }
+        .full-width-input {
+          width: 100%;
+        }
+        .date-range {
+          display: flex;
+          justify-content: space-between;
+        }
+        .date-input {
+          flex: 1;
+          margin: 0 5px; /* Add horizontal margin between date inputs */
+        }
+        .to-label {
+          align-self: center; /* Center the "to" label vertically */
+        }
+  
+  /* Modal styling */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1005; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .modal-close:hover,
+  .modal-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .small-image {
+    width: 100px;
+    height: auto;
+  }
+  
+  .large-image {
+    width: 300px;
+    height: auto;
+  }
+  

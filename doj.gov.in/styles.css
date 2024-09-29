@@ -188,10 +188,11 @@ select {
 }
 
 .image-message {
-  /* position: relative;
-  display: inline-block;
+   position: relative;
+   object-fit: cover;
+  /*display: inline-block;
   overflow: hidden; 
-  object-fit: cover; */
+   */
   display: inline-block;    /* Images also display in a row */
   margin: 10px;             /* Adds space around images */
   max-width: 150px;         /* Sets maximum width for images */

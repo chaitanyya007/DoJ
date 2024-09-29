@@ -4992,25 +4992,7 @@
     <!-- Chatbot Window -->
     <div id="chatbot-window">
       <div id="chatbot-header">Chatbot</div>
-      <div id="chatbot-body">
-        <div class="language-select" id="language-select">
-            <label for="indic-languages">Select your language: </label>
-            <br/>
-            <select id="indic-languages">
-                <option value="hi">English</option>
-                <option value="hi">Hindi</option>
-                <option value="bn">Bengali</option>
-                <option value="te">Telugu</option>
-                <option value="mr">Marathi</option>
-                <option value="ta">Tamil</option>
-                <option value="gu">Gujarati</option>
-                <option value="kn">Kannada</option>
-                <option value="ml">Malayalam</option>
-                <option value="pa">Punjabi</option>
-                <option value="or">Odia</option>
-            </select>
-        </div>
-      </div>
+      <div id="chatbot-body"></div>
       <div id="chatbot-input">
         <input type="text" id="user-input" placeholder="Type a message..." />
         <button id="send-btn" style="border: none; background: transparent">
@@ -5057,17 +5039,28 @@
       </div>
 
       <div class="input-group">
-        <label for="actSection1">ACT/SECTIONS</label>
+        <label for="actSection1">ACT</label>
         <input
           type="text"
           id="actSection1"
           name="actSection1"
-          placeholder="Enter Acts/Sections Related"
+          placeholder="Enter Acts Related"
           required
           class="full-width-input"
         />
       </div>
-        <button class="submitDate" onClick="filterDate()">Filter</button>
+
+      <div class="input-group">
+        <label for="actSection2">Section</label>
+        <input
+          type="text"
+          id="actSection2"
+          name="actSection2"
+          placeholder="Enter Section Related"
+          required
+          class="full-width-input"
+        />
+      </div>
     </div>
     <div class="graph-container"></div>
 
@@ -5080,7 +5073,7 @@
     </div>
 
     <script>
-      let idx = -1;
+      
       // Get references to elements
       const chatbotBtn = document.getElementById("chatbot-btn");
       const chatbotWindow = document.getElementById("chatbot-window");
@@ -5092,7 +5085,7 @@
       let isChatbotOpen = false;
 
       // Toggle chatbot window visibility
-      chatbotBtn.addEventListener("click", () => {  
+      chatbotBtn.addEventListener("click", () => {
         isChatbotOpen = !isChatbotOpen;
         chatbotWindow.style.display = isChatbotOpen ? "block" : "none";
       });
@@ -5108,12 +5101,12 @@
       });
 
       responseList = [
-        `Main functions of the Department of Justice in India: Appointment and Service of Judges: The department manages appointments, transfers, and removals of judges in the Supreme Court and High Courts. Judicial Reforms: Focuses on improving infrastructure, setting up special courts for sensitive cases (such as rape and POCSO cases), and implementing projects like e-Courts. Legal Aid Programs: Supports initiatives like Tele-law (reaching remote areas) and Nyaya Mitra (for legal aid and pro-bono services)`,
+        `The Department of Justice in India manages judges' appointments, transfers, and removals, focuses on judicial reforms, and supports legal aid programs.`,
 
-        `Sure, here's the answer to the query: Based on the context, fast track courts are specialized courts set up for the expeditious trial and disposal of cases involving rape or the POCSO Act. This scheme aims to streamline the legal process, reduce case pendency, and ensure timely resolution of these sensitive cases.
+        `Fast track courts are specialized courts designed to quickly handle rape and POCSO cases.
         `,
         "call xyz image.png",
-        "call function image.png",
+        "call function bargraph1.png",
       ];
      /* idx = -1;
       function sendMessage() {
@@ -5166,28 +5159,7 @@
       }
 
       function displayImage(src = "image3.jpg") {
-        if (src=="bargraph1.png"){
-            const imageElement = document.createElement("div");
-        imageElement.classList.add("image-message");
-
-        const img = document.createElement("img");
-        img.src = src;
-        img.alt = "   Image Response";
-        imageElement.appendChild(img);
-
-        const button = document.createElement("button");
-        button.innerHTML = '<i class="fas fa-expand-alt expand-icon"></i>';
-        button.classList.add("expand-button");
-        button.addEventListener("click", () => {
-          expand1();
-        });
-        imageElement.appendChild(button);
-        chatbotBody.appendChild(imageElement);
-        chatbotBody.scrollTop = chatbotBody.scrollHeight;
-        }
-    
-        else{
-            const imageElement = document.createElement("div");
+        const imageElement = document.createElement("div");
         imageElement.classList.add("image-message");
 
         const img = document.createElement("img");
@@ -5204,26 +5176,8 @@
         imageElement.appendChild(button);
         chatbotBody.appendChild(imageElement);
         chatbotBody.scrollTop = chatbotBody.scrollHeight;
-        }
-        
       }
-      function expand1(){
-        const popup = document.createElement("div");
-        popup.classList.add("popup");
-        document.body.appendChild(popup);
-
-        const closeButton = document.createElement("button");
-        closeButton.classList.add("close-btn");
-        closeButton.innerHTML = "&times;";
-        closeButton.onclick = () => {
-          popup.style.display = "none";
-
-          
-          
-        };
-
-        popup.appendChild(closeButton);
-      }
+      
 
       function popup(
         data = [
@@ -5242,13 +5196,13 @@ Key Issues: Conviction for kidnapping, robbery, and conspiracy.
 
 Findings:
 
-Prosecution's case deemed fabricated and lacking credible evidence.
+1. Prosecution's case deemed fabricated and lacking credible evidence.
 
-FIR registered without proper verification.
+2. FIR registered without proper verification.
 
-Key witness (grandfather) not examined, raising doubts.
+3. Key witness (grandfather) not examined, raising doubts.
 
-Procedural errors in evidence handling.
+4. Procedural errors in evidence handling.
 
 Outcome: Convictions quashed; appellants acquitted.`
           },
@@ -5356,8 +5310,8 @@ Outcome: Convictions quashed; appellants acquitted.`
           const contentDiv = document.createElement("div");
           contentDiv.classList.add("node-content");
 
-          const contentParagraph = document.createElement("p");
-          contentParagraph.textContent = 'Case No: ' + item.content;
+          const contentParagraph = document.createElement("pre");
+          contentParagraph.textContent = item.content;
           contentDiv.appendChild(contentParagraph);
 
           node.appendChild(contentDiv);
@@ -5422,16 +5376,6 @@ Outcome: Convictions quashed; appellants acquitted.`
         popup.style.display = "flex";
       }
 
-      function filterDate() {
-            const parent = document.querySelector('.nodes-container');
-            // Loop through the first 4 child nodes and remove them
-            for (let i = 0; i < 4; i++) {
-                if (parent.firstChild) {
-                    parent.removeChild(parent.firstChild);
-                }
-            }
-        }
-
       const closeModal = () => {
         const modal = document.getElementById("modal");
         modal.style.display = "none";
@@ -5441,6 +5385,7 @@ Outcome: Convictions quashed; appellants acquitted.`
         .getElementById("modal-close")
         .addEventListener("click", closeModal);
     </script>
+    
   </body>
 
   <!-- Mirrored from doj.gov.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Sep 2024 09:32:59 GMT -->
