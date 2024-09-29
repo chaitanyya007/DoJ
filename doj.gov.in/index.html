@@ -5211,17 +5211,16 @@
         const popup = document.createElement("div");
         popup.classList.add("popup");
         document.body.appendChild(popup);
-
+        const img = document.createElement('img');
+img.src = 'bargraph1.png';
+img.className = 'expando'
         const closeButton = document.createElement("button");
         closeButton.classList.add("close-btn");
         closeButton.innerHTML = "&times;";
         closeButton.onclick = () => {
           popup.style.display = "none";
-
-          
-          
         };
-
+        popup.appendChild(img)
         popup.appendChild(closeButton);
       }
 
